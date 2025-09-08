@@ -1,0 +1,57 @@
+body {
+  background-color: #141414;
+}
+
+.home {
+  height: 100vh;
+  position: relative;
+  background-image: radial-gradient(circle, #292929, #242424, #1e1e1e, #191919, #141414);
+  display: flex;
+  padding: 50px;
+}
+
+.home-text {
+  background-color: #15819c;
+  position: absolute;
+  height: 100vh;
+  width: 39vw;
+  z-index: 2;
+}
+
+.home-bg {
+  right: 100px;
+  width: max-content;
+  height: auto;
+  top: 0px;
+  margin: 0;
+  
+  display: flex;
+  background-color: #fff;
+}
+
+@keyframes home-bg-windows-animation-bas {
+  from {margin-top: -200px;}
+  to {margin-top: 100px}
+}
+
+@keyframes home-bg-windows-animation-haut {
+  from {margin-top: -400px;}
+  to {margin-top: 50px}
+}
+
+.home-bg-windows {
+  height: 80vh;
+  width: 300px;
+  margin-left: 20px;
+  background: url(/content/images/background/home-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  margin-left: 50px;
+  animation: 1.5s cubic-bezier(.12,.53,.2,.98);
+}
+
+.premierSection {
+  height: 1000px;
+  background-color: rgb(197, 197, 197);
+}

@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+}
+
+.home-section {
+  height: 100vh;
+  max-height: 100vh;
+  overflow: visible;
+  position: relative;
+  background-image: radial-gradient(circle, #292929, #242424, #1e1e1e, #191919, #141414);
+  padding: 50px;
+  color: white;
+  box-sizing: border-box;
+}
+
+.home-container {
+  width: 100hv;
+  display: flex;
+  height: 100%;
+}
+
+.home-text-box {
+  height: 100%;
+  width: 39vw;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.home-text-box h1 {
+  font-size: 100px;
+}
+
+.home-bg-box {
+  width: 50vw;
+  height: auto;
+  margin: 0;
+  flex: 1;
+  display: flex;
+  padding-bottom: 50px;
+}
+
+@keyframes home-bg-windows-animation-bas {
+  from {margin-top: -200px;}
+  to {margin-top: 50px}
+}
+
+@keyframes home-bg-windows-animation-haut {
+  from {margin-top: -400px;}
+  to {margin-top: 0px}
+}
+
+.home-bg-windows {
+  height: 100%;
+  width: 100%;
+  margin-left: 20px;
+  background: url(/content/images/background/home-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  margin-left: 50px;
+  animation: 1.5s cubic-bezier(.12,.53,.2,.98);
+  border-radius: 10px;
+}
+
+.premierSection {
+  height: 1000px;
+  background-color: rgb(197, 197, 197);
+}
